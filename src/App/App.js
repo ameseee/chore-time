@@ -1,4 +1,5 @@
 import React from 'react';
+import { Router } from "@reach/router";
 import './App.css';
 import Nav from '../Nav/Nav.js';
 import Bills from '../Parent/Bills/Bills.js';
@@ -8,7 +9,10 @@ function App() {
   return (
     <div>
       <Nav />
-      <ParentDashboard />
+      <Router>
+        <ParentDashboard path="/dashboard" />
+        <Bills path="bills" />
+      </Router>
     </div>
   )
 }

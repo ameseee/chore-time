@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from "@reach/router";
+import NavBar from './NavStyles';
 
 function Nav(props) {
   return (
-    <nav>
+    <NavBar>
       <h1>Chore$</h1>
-      <ul>
+      <aside>
         <Link to="/dashboard">Dashboard</Link>
         <Link to="/bills">Bills</Link>
-        <li>Sign Out</li>
-      </ul>
-    </nav>
+        <Link to="/">Sign Out</Link>
+      </aside>
+    </NavBar>
   );
 }
 

@@ -11,6 +11,7 @@ const NavStyles = styled.nav`
   h1 {
     color: ${props => props.theme.offWhite};
     font-size: 175%;
+    font-family: Lato;
   }
 
   aside {
@@ -22,7 +23,7 @@ const NavStyles = styled.nav`
 
     a {
       color: #CACAD2;
-      font-family: 'Lato';
+      font-family: Lato;
       text-decoration: none;
       transition: 0.25s ease all;
     }

@@ -8,6 +8,7 @@ const ChoreContainerStyles = styled.div`
 
   .header-container {
     border-top: none;
+    padding: 1.25rem 1rem;
   }
 `;
 

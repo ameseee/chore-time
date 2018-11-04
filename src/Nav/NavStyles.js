@@ -19,11 +19,13 @@ const NavStyles = styled.nav`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 15rem;
+    width: 18rem;
+    font-size: 95%;
 
     a {
       color: #CACAD2;
       font-family: Lato;
+      text-transform: uppercase;
       text-decoration: none;
       transition: 0.25s ease all;
     }

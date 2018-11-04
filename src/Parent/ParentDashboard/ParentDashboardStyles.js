@@ -3,6 +3,7 @@ import styled from 'styled-components';
 const ParentDashboardStyles = styled.div`
   width: 60%;
   margin: 0 auto;
+  margin-bottom: 3rem;
 
   h2 {
     font-family: Lato;

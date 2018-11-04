@@ -1,21 +1,21 @@
 import styled from 'styled-components';
 
 const ChoreStyles = styled.div`
-  border-bottom: 1px solid #CECECE;
+  border-top: 1px solid ${ props => props.theme.lightGrey };
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 0.4fr;
   grid-template-areas: "chore value frequency delete";
+  align-items: center;
   margin: 0 1rem;
-  padding: 1rem;
+  padding: 0.75rem;
+
 
   p {
     font-family: Lato;
-    color: ${ props => props.theme.darkGrey }
   }
 
   .header {
     font-size: 110%;
-    font-color: ${ props => props.theme.darkBlue }
   }
 
   .chore {
@@ -35,18 +35,11 @@ const ChoreStyles = styled.div`
   }
 
   button {
-    padding: 0.25rem;
-    text-transform: uppercase;
-    border-radius: 5px;
+    padding: 0.5rem;
     background-color: #CE3A63;
-    border: none;
-    color: white;
-    font-weight: 300;
-    transition: 0.25s ease all;
   }
 
   button:hover {
-    cursor: pointer;
     background-color: #9B2B4A;
   }
 `;

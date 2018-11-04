@@ -10,6 +10,7 @@ import ParentDashboard from '../Parent/ParentDashboard/ParentDashboard.js';
 const theme = {
   offWhite: '#f5f5f2',
   darkBlue: '#2b2c4b',
+  darkGrey: '#3C3C3C',
 }
 
 const GlobalStyle = createGlobalStyle`

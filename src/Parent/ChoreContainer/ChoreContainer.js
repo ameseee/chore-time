@@ -1,15 +1,22 @@
 import React from 'react';
 import Chore from '../Chore/Chore.js';
+import ChoreContainerStyles from './ChoreContainerStyles';
+import ChoreStyles from '../Chore/ChoreStyles';
 
 function ChoreContainer() {
   return(
-    <div>List of all chores
+    <ChoreContainerStyles>
+      <ChoreStyles>
+        <p className="header chore">Chore</p>
+        <p className="header value">Value</p>
+        <p className="header frequency">Frequency</p>
+      </ChoreStyles>
       <Chore />
       <Chore />
       <Chore />
       <Chore />
-    </div>
-  )
+    </ChoreContainerStyles>
+  );
 }
 
 export default ChoreContainer;
